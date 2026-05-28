@@ -1,0 +1,53 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="420" rx="34" fill="#05070C"/>
+  <rect x="1" y="1" width="958" height="418" rx="33" stroke="white" stroke-opacity="0.08"/>
+  <path d="M0 0H960V420H0V0Z" fill="url(#grid)" opacity="0.42"/>
+  <circle cx="596" cy="208" r="148" fill="url(#glow)" opacity="0.82"/>
+  <g filter="url(#softShadow)">
+    <rect x="286" y="118" width="242" height="84" rx="20" fill="white" fill-opacity="0.08"/>
+    <rect x="287" y="119" width="240" height="82" rx="19" stroke="white" stroke-opacity="0.16"/>
+    <rect x="315" y="144" width="54" height="34" rx="10" fill="#7C3AED" fill-opacity="0.64"/>
+    <text x="386" y="166" fill="#E7EAF3" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Secure API Gateway</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="430" y="186" width="310" height="106" rx="24" fill="#111827" fill-opacity="0.72"/>
+    <rect x="431" y="187" width="308" height="104" rx="23" stroke="white" stroke-opacity="0.14"/>
+    <circle cx="480" cy="239" r="28" fill="#2563EB" fill-opacity="0.64"/>
+    <path d="M493 232L481 244L474 237" stroke="#DCEBFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="526" y="231" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Systems Connected</text>
+    <text x="526" y="260" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">CRM • Payments • Dashboards</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="608" y="113" width="196" height="70" rx="18" fill="white" fill-opacity="0.08"/>
+    <rect x="609" y="114" width="194" height="68" rx="17" stroke="white" stroke-opacity="0.14"/>
+    <circle cx="640" cy="148" r="7" fill="#22C55E"/>
+    <text x="660" y="154" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">99.99% Uptime</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="182" y="233" width="214" height="72" rx="18" fill="white" fill-opacity="0.07"/>
+    <rect x="183" y="234" width="212" height="70" rx="17" stroke="white" stroke-opacity="0.12"/>
+    <text x="213" y="274" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Webhook Sync</text>
+    <path d="M336 263H356L346 253M356 263L346 273" stroke="#60A5FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M404 202C404 226 404 238 420 238H430" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M608 183C608 194 608 200 600 200H586C574 200 574 208 574 218" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M396 268H430" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <defs>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" stroke="white" stroke-opacity="0.08"/>
+    </pattern>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(596 208) rotate(90) scale(148)">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.48" stop-color="#2563EB" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="396" y1="203" x2="610" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.1"/>
+      <stop offset="0.48" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="softShadow" x="122" y="53" width="742" height="312" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+</svg>
